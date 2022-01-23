@@ -465,6 +465,7 @@ img {
   line-height: 150%;
   text-align: center;
   color: #333333;
+  opacity: 0.8;
   border-bottom: 2px solid transparent;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -473,6 +474,7 @@ img {
 .nav__link:hover {
   color: #000;
   border-bottom: 2px solid #000;
+  opacity: 1;
 }
 
 .header__inner-help {
@@ -667,6 +669,7 @@ img {
   background-image: url(../../images/health-bgi.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .health__info {
